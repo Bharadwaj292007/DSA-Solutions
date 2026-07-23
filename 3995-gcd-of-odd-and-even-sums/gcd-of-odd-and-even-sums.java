@@ -3,7 +3,6 @@ class Solution {
         int ans=0;
         int Es=0;
         int Os=0;
-        int min=0;
        for(int i=1;i<=n*2;i++)
        {
         if(i%2==0)
@@ -16,14 +15,8 @@ class Solution {
         }
         
        } 
-       if(Es<Os)
-        {
-            min =Es;
-        }
-        else{
-            min=Os;
-        }
-       for(int i=1;i<=min;i++)
+     
+       for(int i=1;i<=Os;i++)
        {
         if(Es%i==0 && Os%i==0)
         {
