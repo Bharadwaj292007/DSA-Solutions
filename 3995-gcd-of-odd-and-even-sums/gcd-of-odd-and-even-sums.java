@@ -1,6 +1,6 @@
 class Solution {
     public int gcdOfOddEvenSums(int n) {
-        int ans=0;
+       /* int ans=0;
         int Es=0;
         int Os=0;
        for(int i=1;i<=n*2;i++)
@@ -24,6 +24,7 @@ class Solution {
         }
 
        }
-       return ans;
+       return ans;*/
+       return n;
     }
 }
