@@ -3,6 +3,7 @@ class Solution {
         Arrays.sort(nums);
         int max1=nums[nums.length-1];
         int max2=nums[nums.length-2];
-        return ((max1-1)*(max2-1));
+        int res=((max1-1)*(max2-1));
+        return res;
     }
 }
