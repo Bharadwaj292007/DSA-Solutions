@@ -19,7 +19,8 @@ class Solution {
                 current.next=list1;
                 list1=list1.next;
             }
-            else{
+            else
+            {
                 current.next=list2;
                 list2=list2.next;
             }
@@ -28,12 +29,10 @@ class Solution {
         if(list1!=null)
         {
             current.next=list1;
-            
         }
-        else
+        if(list2!=null)
         {
             current.next=list2;
-           
         }
         return dummy.next;
     }
